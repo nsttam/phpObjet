@@ -12,5 +12,6 @@ $z900->topCase=1;//pour __set
 $z900->isJaponaise=1;//pour __set
 var_dump($z900);
 echo ($z900->isJaponaise); //Impossible d'afficher la valeur car is japonaise is private. Message grace a function __get
-$isJaponnaise = $z900->isJaponaise;
+echo ($z900->toto); //toto n'existe pas
+$isJaponnaise = $z900->isJaponaise;//Impossible d'afficher la valeur car is japonaise is private. Message grace a function __get
 ?>
